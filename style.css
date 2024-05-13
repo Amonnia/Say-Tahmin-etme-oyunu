@@ -1,0 +1,93 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background-color:#262626 ;
+    padding: 20px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+
+header span {
+    color: white;
+}
+
+nav {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 200px;
+
+    
+}
+
+nav div {
+    background-color: aliceblue;
+    width: 15%;
+    height: auto;
+    padding: 60px;
+    color: #262626;
+    font-size: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content: center;
+    padding-top: 150px;
+    width: 100%;
+    height: auto;
+    
+}
+
+.tahmin-ekrani {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.tahmin-ekrani div{
+    width: 50%;
+    padding: 80px;
+}
+
+.tahmin-ekrani button {
+    width: 20%;
+}
+
+.kontrol-text{
+    border: 3px solid white;
+    width: 50%;
+    height: 150px;
+    background-color: #262626;
+    color: white;
+    text-align: center;
+}
+
+.kontrol-ekrani input {
+    width: 100%;
+    height: 100%;
+}
+
+
+.sonuc-ekrani {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    
+}
